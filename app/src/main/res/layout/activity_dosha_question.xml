@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoshaQuestion"
+    android:background="@drawable/fortypes">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/white">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="50sp"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/progresstext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#454545"
+            android:gravity="center_horizontal"
+            android:text="@string/question_label_progress"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textColor="#454545"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_centerInParent="true" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+
+            android:id="@+id/QuestionsRadioGroup">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/optionSize"
+                android:textColor="#454545"
+                android:layout_margin="12sp"
+                android:id="@+id/radio1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/optionSize"
+                android:layout_margin="12sp"
+                android:textColor="#454545"
+                android:id="@+id/radio2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#454545"
+                android:layout_margin="12sp"
+                android:textSize="@dimen/optionSize"
+                android:id="@+id/radio3"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="fill_parent"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textColor="@color/hint_color"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text="@string/next"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="#990000"
+            android:layout_centerInParent="true" />
+
+
+    </LinearLayout>
+</ScrollView>

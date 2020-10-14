@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Ayurveda Wellness</string>
+
+    <!-- For login Activity  -->
+    <string name="UserIdHint">Email id</string>
+    <string name="PasswordHint">Password</string>
+    <string name="ButtonLogin">Login</string>
+    <string name="registerPage">New User? Click Here To Register</string>
+    <string name="ButtonEdit">Edit Account</string>
+
+    <!-- FOr SIgnUP Activity-->
+    <string name="EnterDetails">Enter Your Details To Register</string>
+    <string name="RButton">Register</string>
+    <string name="RName">Full Name</string>
+    <string name="RPhoneNo">Phone No</string>
+    <string name="Remail_Id">Email Id</string>
+    <string name="RPassword">Confirm Password</string>
+
+    <!-- For View SignUp Activity-->
+    <string name="EnterDetailsV">Personal Details </string>
+    <string name="RDelte">Delete Account</string>
+
+    <string name="feedbacktext">Enter Your Feedback Or any Query you want to ask</string>
+    <string name="send_button">SEND</string>
+
+    <string name="ayur_intro">
+        "Ayurveda is considered by many scholars to be the oldest healing science. In Sanskrit, Ayurveda means “The Science of Life.” Ayurvedic knowledge originated in India more than 5,000 years ago and is often called the “Mother of All Healing.”"
+    </string>
+
+    <string name="mindbody">
+        "According to Ayurvedic philosophy the entire cosmos is an interplay of the energies of the five great elements—Space, Air, Fire, Water and Earth. Vata, pitta and kapha are combinations and permutations of these five elements that manifest as patterns present in all creation. In the physical body, vata is the subtle energy of movement, pitta the energy of digestion and metabolism, and kapha the energy that forms the body’s structure."
+    </string>
+
+    <string name="about_us">
+        "We have developed this app to provide our users a self-healing tool.\n\n"
+    </string>
+
+    <!-- for Quiz  -->
+    <string name="next">Submit</string>
+    <string name="question_label_progress">Question</string>
+    <string name="start_questionnaire_label">Start Dosha Quiz</string>
+    <string name="question_mandatory_error">Please select one answer!</string>
+    <string name="report_label">Report Analysis</string>
+
+    <string name="vata">Vata</string>
+    <string name="pitta">Pitta</string>
+    <string name="kapha">Kapha</string>
+
+    // Corpse Pose Steps
+    <string name="step1">1. Lie flat on your back and relax.Legs should be separated.</string>
+    <string name="step2">2. Keep your arms at your side and your palms facing up.</string>
+    <string name="step3">3. Close your eyes and breathe deeply and slowly through the nostrils.</string>
+    <string name="step4">4. Start concentrating from your head to your feet.</string>
+    <string name="step5">5. On each inhaling and exhaling (breathing) think that your body is totally relaxed.</string>
+
+    //Saff Pose
+    <string name="step6">1. From Plank Pose, shift forward onto your tippy toes.</string>
+    <string name="step7">2. Ground through your palms and broaden across the chest. Take an inhale.</string>
+    <string name="step8">3. Bend your elbows to a 90-degree angle. Keep your thighs lifted toward the ceiling.</string>
+    <string name="step9">4. Hold your elbows in line with the torso. Gaze forward.</string>
+    <string name="step10">5. To come out of the pose, release your knees to the ground.</string>
+
+    //Tree Pose
+    <string name="step11">1. Stand with 2 inches feet apart.Focus on a point in front.</string>
+    <string name="step12">2. Bend the right leg and place the foot on the inside of the left thigh.</string>
+    <string name="step13">3. Inhale and extend the arms up and join the palms in Namaste.</string>
+    <string name="step14">4. Stay here as long as you can focusing on one point.</string>
+    <string name="step15">5. Slowly exhaling bring the arms down and then the right foot down to rest.</string>
+
+    //Bridge Pose
+    <string name="step16">1. Lye on the mat with your back on the floor.</string>
+    <string name="step17">2. Draw your feet inwards towards the hips.</string>
+    <string name="step18">3. Knees should not be pointing outwards.</string>
+    <string name="step19">4. Now lift yourself up with your stomach going towards the ceiling.</string>
+    <string name="step20">5. Chin and chest should be locked.</string>
+
+    //Child Pose
+    <string name="step21">1. Kneel on your mat with the thighs apart.</string>
+    <string name="step22">2. Sink the buttocks to the heels and curl the spine as you fold the body forward.</string>
+    <string name="step23">3. Draw the forehead down towards the ground.</string>
+    <string name="step24">4. Allow  your arms to rest behind you with the palms facing up.</string>
+    <string name="step25">5. Allow the body to feel supported by the earth beneath you and breathe deeply.</string>
+
+    //Cobra Pose
+    <string name="step26">1. Lie on your abdomen with your legs spread at hip width and the tops of your feet on the floor.</string>
+    <string name="step27">2. Bend your elbows and place your palms on the floor.</string>
+    <string name="step28">3. As you inhale, press your palms against the floor.</string>
+    <string name="step29">4. Engage your back muscles, and raise your chest and head.</string>
+    <string name="step30">5.As you exhale, lower your torso and head slowly back to the floor.</string>
+
+    //Warrior Pose
+    <string name="step31">1. Stand straight and spread your legs wide-apart.</string>
+    <string name="step32">2. Turn your left feet out to face the left side of the mat.</string>
+    <string name="step33">3. The other feet will turn inward to make a 45 Degree angle</string>
+    <string name="step34">4. Twist your body to left completely.Go forward on your left knee making a 90 Degree angle</string>
+    <string name="step35">5.Go into a Namaste position,and taking arms up above your head, look up, arch your back a bit and stretch</string>
+
+
+</resources>

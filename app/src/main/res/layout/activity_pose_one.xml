@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PoseOne">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/back_arrow"
+            android:paddingLeft="10dp"
+            android:clickable="true"
+            android:onClick="finish"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yoga Postures"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/back_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/namepose"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Corpse Pose"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/darkblack"/>
+    <TextView
+        android:id="@+id/step"
+        android:layout_below="@id/namepose"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="STEPS:"
+        android:textColor="@color/darkblack"
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@id/step"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step1"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step2"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_below="@id/text2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step3"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_below="@id/text3"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step4"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/text5"
+        android:layout_below="@id/text4"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step5"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/text5"
+        android:id="@+id/duration"
+        android:text="Duration:"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/darkblack"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/duration"
+        android:layout_below="@+id/text5"
+        android:id="@+id/timerCount"
+        android:text="10:00"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/darkblack"
+        />
+    <LinearLayout
+        android:id="@+id/btnlayout"
+        android:layout_below="@+id/timerCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="start"
+            android:textStyle="bold"
+            android:background="@drawable/custom_btn"
+            />
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Reset"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:background="@drawable/custom_btn"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="297dp"
+        android:layout_height="247dp"
+        android:layout_below="@id/btnlayout"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/corpse"
+        />
+
+
+
+</RelativeLayout>

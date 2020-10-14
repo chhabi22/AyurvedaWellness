@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.teamcapstonercr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OnBoard"></activity>
+        <activity android:name=".soothingActivity" />
+        <activity android:name=".VataActivity" />
+        <activity android:name=".PitaActivity" />
+        <activity android:name=".KaphaActivity" />
+        <activity android:name=".normalActivity" />
+        <activity android:name=".natureActivity" />
+        <activity android:name=".mediActivity" />
+        <activity android:name=".calmActivity" />
+        <activity android:name=".PitttaList" />
+        <activity android:name=".KaphaList" />
+        <activity android:name=".VataList" />
+        <activity android:name=".PoseSeven" />
+        <activity android:name=".PoseSix" />
+        <activity android:name=".PoseFive" />
+        <activity android:name=".PoseFour" />
+        <activity android:name=".PoseThree" />
+        <activity android:name=".PoseTwo" />
+        <activity android:name=".PoseOne" />
+        <activity android:name=".Write" />
+        <activity android:name=".PhotoImage" />
+        <activity android:name=".Photos" />
+        <activity android:name=".JournalReady" />
+        <activity android:name=".DoshaResult" />
+        <activity android:name=".DoshaQuestion" />
+        <activity android:name=".journal.DatabaseHelper" />
+        <activity android:name=".journal.ViewJournal" />
+        <activity android:name=".journal.AddJournal" />
+        <activity android:name=".DoshaQ" />
+        <activity android:name=".Purchases" />
+        <activity android:name=".extras.Dashboard" />
+        <activity android:name=".soundtherapy.SoundTypes" />
+        <activity android:name=".soundtherapy.SoundFirst" />
+        <activity android:name=".extras.About" />
+        <activity android:name=".yog.Typeunique" />
+        <activity android:name=".extras.Feedback" />
+        <activity android:name=".usersinfo.Register" />
+        <activity android:name=".usersinfo.Login" />
+        <activity android:name=".yog.YogaFirst" />
+        <activity android:name=".journal.JournalFirst" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".usersinfo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

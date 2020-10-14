@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorLP">#FEF6D5EC</color>
+    <color name="white">#ffffff</color>
+    <color name="ratingLine">#b54466b1</color>
+    <color name="black">#752b2929</color>
+    <color name="orange">#f77f43</color>
+    <color name="myblue">#54b0c7</color>
+    <!-- For Login Page -->
+    <!-- Hint color-->
+    <color name="hint_color">#1d1010</color>
+    <color name="green">#bdefaf</color>
+
+    <!-- For signUp activty userId-->
+    <color name="red">#adff3f3f</color>
+    <color name="greenC">#ad67f57f</color>
+
+
+    <color name="darkblack">#000000</color>
+</resources>

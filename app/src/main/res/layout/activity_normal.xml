@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".normalActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_back"
+            android:layout_centerVertical="true"
+            android:id="@+id/back_arrow"
+            android:paddingLeft="10dp"
+            android:clickable="true"
+            android:onClick="finish"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Therapy"
+            android:textSize="20sp"
+            android:textColor="@color/hint_color"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/back_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/addImage"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/icon_home"
+            android:onClick="clickable" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="263dp"
+            android:layout_height="299dp"
+            android:src="@drawable/gif"
+            android:layout_margin="10dp">
+
+        </pl.droidsonroids.gif.GifImageView>
+        <!--        <ImageView-->
+        <!--            android:layout_width="250dp"-->
+        <!--            android:layout_height="250dp"-->
+        <!--            android:src=""/>-->
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/slider"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_pause"
+                android:id="@+id/pause"
+                android:onClick="pauseBtn"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/stop"
+                android:layout_toRightOf="@+id/pause"
+                android:layout_marginTop="15dp"
+                android:onClick="stopBtn"
+                android:background="@drawable/icon_stop"/>
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:onClick="playBtn"
+                android:layout_toLeftOf="@+id/pause"
+                android:background="@drawable/icon_play"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

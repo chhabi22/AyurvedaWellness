@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+      <script type="text/javascript" src=" https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+     google.charts.load('current', {'packages':['controls', 'corechart']});
+    google.charts.setOnLoadCallback( drawChart );
+
+
+
+      function drawChart() {
+
+      // Create the data table.
+      var data = new google.visualization.DataTable();
+      data.addColumn( 'string' , 'ITEM' );
+      data.addColumn( 'number', 'VALUE' );
+      data.addRows ( [
+        [ 'Vata' , Android.getVata() ],
+        [ 'Pitta' , Android.getPitta() ],
+        [ 'Kapha' , Android.getKapha() ]
+      ]);
+
+      // Set chart options
+      var options = { 'title':'Click on the chart for more details' ,
+      is3D : true,
+
+   };
+
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.PieChart(document.getElementById( 'myPieChart' ) );
+      chart.draw( data , options );
+    }
+    </script>
+  </head>
+  <!--Div that will hold the pie chart-->
+  <div id="myPieChart" style="width:450; height:400"></div>
+  <h3>Results</h3>
+  <p>This is your result according to the answers you gave in quiz to understand your body type.</p>
+  <p>Now you know your body type,Go to other feature which is Yoga Posture to do the Yoga Asana acoording to your body type to attain the healthy body</p>
+
+  </body>
+</html>

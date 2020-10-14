@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".usersinfo.Register"
+    android:background="@drawable/fortypes">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="UselessParent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterDetails"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/hint_color"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RName"
+            android:hint="@string/RName"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/REmailId"
+            android:hint="@string/Remail_Id"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RPassword"
+            android:hint="@string/PasswordHint"
+            android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RButton"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Rbtn"
+        android:layout_gravity="center"
+        android:background="@color/hint_color"
+        android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/rlinktologin"
+            android:text="New User? Click here to Login"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="@color/hint_color">
+        </TextView>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rprogressbar"
+            android:visibility="invisible"
+            ></ProgressBar>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For Quiz question  -->
+    <string name="number_of_questions">4</string>
+    <string-array name="question1">
+        <item>1</item>
+        <item>Body size?</item>
+        <item>Thin build</item>
+        <item>Medium build</item>
+        <item>Large build</item>
+    </string-array>
+
+    <string-array name="question2">
+        <item>2</item>
+        <item>Body weight?</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>Heavy side</item>
+    </string-array>
+
+    <string-array name="question3">
+        <item>3</item>
+        <item>Weight change?</item>
+        <item>Trouble gaining</item>
+        <item>Can gain but lose quickly</item>
+        <item>Gains weight easily, hard to lose</item>
+    </string-array>
+
+
+    <string-array name="question4">
+        <item>4</item>
+        <item>Skin type?</item>
+        <item>Thin, dry</item>
+        <item>Smooth, combination skin</item>
+        <item>Thick, oily</item>
+    </string-array>
+
+</resources>
